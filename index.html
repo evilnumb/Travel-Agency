@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href=" css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="img/logo.png ">
+            <nav class="nav">
+                <ul class="menu-list">
+                    <li class="menu-item">Home</li>
+                    <li class="menu-item">Tours</li>
+                    <li class="menu-item">Hot Tours</li>
+                    <li class="menu-item">About</li>
+                    <li class="menu-item">Contacts</li>
+                </ul>
+            </nav>
+            <div class="sign">
+                <button class="btn">Sign In</button>
+                <button class="btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <!-- Slider -->
+    <div class="sim-slider">
+        <div class="sim-slider-list">
+            <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li>
+            <li class="sim-slider-element"><img src=" img/Paris.jpg" alt="0"></li>
+            <li class="sim-slider-element"><img src=" img/Venezia.jpg" alt="1"></li>
+            <li class="sim-slider-element"><img src=" img/Zurch.jpg" alt="2"></li>
+        </div>
+        <div class="sim-slider-arrow-left"></div>
+        <div class="sim-slider-arrow-right"></div>
+        <div class="sim-slider-dots"></div>
+    </div>
+
+
+    <!-- подключение слайдера -->
+    <script src=" js/script.js"></script>
+    <!-- вызов слайдера -->
+    <script>new Sim()</script>
+</body>
+
+</html>
